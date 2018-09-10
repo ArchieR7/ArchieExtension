@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ArchieExtension_Tests' do
+  pod 'ArchieExtension', :path => '../'
+  
+  
+end
