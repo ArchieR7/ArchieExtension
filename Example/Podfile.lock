@@ -1,0 +1,16 @@
+PODS:
+  - ArchieExtension (0.1.0)
+
+DEPENDENCIES:
+  - ArchieExtension (from `../`)
+
+EXTERNAL SOURCES:
+  ArchieExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ArchieExtension: 2fc0f063a91caf9348af00f3d9050a907dff9583
+
+PODFILE CHECKSUM: 76470dababab151cce0cdee60e5aafae1fbd512f
+
+COCOAPODS: 1.5.3

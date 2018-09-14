@@ -10,6 +10,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- Swift 4.2
+- Xcode 10 
 
 ## Installation
 
@@ -20,9 +22,39 @@ it, simply add the following line to your Podfile:
 pod 'ArchieExtension'
 ```
 
+## Usage
+
+### UITableView / UICollectionView
+In `UITableView` and `UICollectionView`, it provides new register methods.
+
+### Collection
+In `Collection`, it provides safe index method, if `index` bigger than `endIndex` and smaller than `startIndex`, will retrun `nil`.
+```
+// collection.count = 9
+collection[safe: -1]
+// return nil
+collcetion[safe: 10]
+// return nil
+```
+
+### ClassName
+```
+UIView.className
+// return "UIView"
+```
+
+### ALog - Debug, Warn, Info, Error
+```
+// in Archie.Swift
+func Test() {
+    ALogDebug("Test")
+}
+// console log: 📒 Archie.swift[1](Test()): Test
+```
+
 ## Author
 
-ArchieR7, Archie@Archie.tw
+Archie, Archie@Archie.tw
 
 ## License
 

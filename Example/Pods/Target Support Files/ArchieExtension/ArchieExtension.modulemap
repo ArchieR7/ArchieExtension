@@ -1,0 +1,6 @@
+framework module ArchieExtension {
+  umbrella header "ArchieExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
