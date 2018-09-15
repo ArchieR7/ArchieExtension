@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		216A8AA3214C2E5300DD7106 /* String+Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A8AA2214C2E5300DD7106 /* String+Log.swift */; };
+		216A8AA5214CDBAE00DD7106 /* String+Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A8AA4214CDBAE00DD7106 /* String+Log.swift */; };
 		31BC4BB4EFC9A675D6EE437083AE2B23 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE540B49B07DCDBB770C46B739460DA1 /* NSObject+ClassName.swift */; };
 		3607830B042DA753811A2905AEF1C333 /* ArchieExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD8760D6A77DBC83455C0053ADC8F65 /* ArchieExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46748D2C58A517EBB06EBA4FE346C1D6 /* UICollectionView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04CE4A36198422AD888A2447368F974 /* UICollectionView+Register.swift */; };
@@ -39,7 +39,7 @@
 		13D40EFA362CC40E97BA82AB2EED04D8 /* ArchieExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArchieExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		180ACE928405785CDB30F3E0DB5A8F07 /* Collection+Safe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Safe.swift"; path = "ArchieExtension/Classes/Collection+Safe.swift"; sourceTree = "<group>"; };
 		1CD8760D6A77DBC83455C0053ADC8F65 /* ArchieExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArchieExtension-umbrella.h"; sourceTree = "<group>"; };
-		216A8AA2214C2E5300DD7106 /* String+Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Log.swift"; sourceTree = "<group>"; };
+		216A8AA4214CDBAE00DD7106 /* String+Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Log.swift"; path = "ArchieExtension/Classes/String+Log.swift"; sourceTree = "<group>"; };
 		23B22E79B63D33292DD8EBB8322024EA /* Pods-ArchieExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArchieExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2440526BA0CEED8117EC9F7EE07419E4 /* Pods-ArchieExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArchieExtension_Tests-dummy.m"; sourceTree = "<group>"; };
 		2A6CDEE5F5D93AC5168E22724CBC9FDC /* UITableView+Register.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Register.swift"; path = "ArchieExtension/Classes/UITableView+Register.swift"; sourceTree = "<group>"; };
@@ -122,10 +122,10 @@
 			children = (
 				180ACE928405785CDB30F3E0DB5A8F07 /* Collection+Safe.swift */,
 				FE540B49B07DCDBB770C46B739460DA1 /* NSObject+ClassName.swift */,
-				216A8AA2214C2E5300DD7106 /* String+Log.swift */,
 				C04CE4A36198422AD888A2447368F974 /* UICollectionView+Register.swift */,
 				2A6CDEE5F5D93AC5168E22724CBC9FDC /* UITableView+Register.swift */,
 				7CE5113771049DAE832E71318DF0920C /* UIView+Nib.swift */,
+				216A8AA4214CDBAE00DD7106 /* String+Log.swift */,
 				9A499CA5BB60844955E41DA9D3159369 /* UIViewController+Storyboard.swift */,
 				349465D40D32EDCAEB65CF11BA1C966F /* Pod */,
 				6711D1583F63D0C9760A0421B3B99A8B /* Support Files */,
@@ -319,7 +319,7 @@
 				EEACD2F1498592E9B810FB00CE861E2B /* UITableView+Register.swift in Sources */,
 				C5BD771D98B6E91A32A8300FB758B89C /* UIView+Nib.swift in Sources */,
 				B144E568591375D9E8627E2826B11D98 /* UIViewController+Storyboard.swift in Sources */,
-				216A8AA3214C2E5300DD7106 /* String+Log.swift in Sources */,
+				216A8AA5214CDBAE00DD7106 /* String+Log.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +395,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -486,7 +486,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

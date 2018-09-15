@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension NSObject {
-    class var className: String { return String(describing: self) }
-    var className: String { return type(of: self).className }
+public extension NSObject {
+    public class var className: String { return String(describing: self) }
+    public var className: String { return type(of: self).className }
 }
